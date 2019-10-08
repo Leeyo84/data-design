@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
+		<title>Data Design Project</title>
 	</head>
 	<body>
 		<link rel="stylesheet" href="interaction-flow.html">
