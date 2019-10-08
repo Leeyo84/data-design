@@ -1,5 +1,47 @@
 body {
-	margin: auto;
+	border: deeppink 3em;
+	background-color: lightgray;
 	alignment: center;
+}
+
+
+body {
 	width: auto;
+}
+
+.inner {
+	margin-top: 20px;
+}
+
+h1 {
+	border-style: double;
+	border-width: thin;
+	color: darkgoldenrod;
+	font-family: "Courier New";
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: deeppink;
+}
+
+a:hover {
+	color: aquamarine;
+}
+
+a:visited {
+
+}
+#mainPageLink {
+	list-style-type: none;
+	text-align: center;
+	font-style: revert;
+	font-family: "Lucida Console";
+	margin-bottom: 5px;
+}
+
+#userStoryP {
+	text-align: center;
+	font-family: "Lucida Console";
 }
