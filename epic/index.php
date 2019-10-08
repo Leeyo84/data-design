@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="style.css">
 		<meta charset="UTF-8">
-		<title>Data Design Project</title>
+		<title>Data Design Project</title
 	</head>
 
 	<body>
+	<link rel="stylesheet" href="style.css">
 		<h1>Data Design Project</h1>
 		<ul>
 			<li> <a href="persona.html">Persona</a> </li>

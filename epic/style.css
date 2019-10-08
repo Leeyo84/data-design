@@ -1,4 +1,5 @@
 body {
+	margin: auto;
+	alignment: center;
 	width: auto;
-	background-image: radial-gradient(circle, lightgray white);
 }
