@@ -4,7 +4,6 @@ body {
 	alignment: center;
 }
 
-
 .inner {
 	margin-top: 20px;
 }
@@ -28,8 +27,6 @@ a:hover {
 
 li {
 	list-style-type: none;
-	text-align: center;
-	font-style: revert;
 	font-family: "Lucida Console", serif;
 	margin-bottom: 5px;
 }
