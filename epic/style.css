@@ -25,7 +25,7 @@ a:hover {
 	color: aquamarine;
 }
 
-li {
+.menuLinks {
 	list-style-type: none;
 	font-family: "Lucida Console", serif;
 	margin-bottom: 5px;
