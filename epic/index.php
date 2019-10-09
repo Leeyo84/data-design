@@ -13,10 +13,10 @@
 		</div>
 		<div>
 			<ul>
-				<li id="mainPageLink"> <a href="persona.html">Persona</a> </li>
-				<li id="mainPageLink"> <a href="user-story.html">User Story</a> </li>
-				<li id="mainPageLink"> <a href="interaction-flow.html">Interaction Flow</a> </li>
-				<li id="mainPageLink"> <a href="conceptual-model.html">Conceptual Model</a> </li>
+				<li id="container"> <a href="persona.html">Persona</a> </li>
+				<li> <a href="user-story.html">User Story</a> </li>
+				<li> <a href="interaction-flow.html">Interaction Flow</a> </li>
+				<li> <a href="conceptual-model.html">Conceptual Model</a> </li>
 			</ul>
 		</div>
 	</body>
