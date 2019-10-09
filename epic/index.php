@@ -14,11 +14,12 @@
 
 		<div>
 			<ul>
-				<li id="menuLinks"> <a href="persona.html">Persona</a> </li>
-				<li id="menuLinks"> <a href="user-story.html">User Story</a> </li>
-				<li id="menuLinks"> <a href="interaction-flow.html">Interaction Flow</a> </li>
-				<li id="menuLinks"> <a href="conceptual-model.html">Conceptual Model</a> </li>
+				<li class="menuLinks"> <a href="persona.html">Persona</a> </li>
+				<li class="menuLinks"> <a href="user-story.html">User Story</a> </li>
+				<li class="menuLinks"> <a href="interaction-flow.html">Interaction Flow</a> </li>
+				<li class="menuLinks"> <a href="conceptual-model.html">Conceptual Model</a> </li>
 			</ul>
 		</div>
+
 	</body>
 </html>
