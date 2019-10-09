@@ -8,6 +8,33 @@
 	<body>
 	<link rel="stylesheet" href="style.css">
 		<h1>Conceptual Model</h1>
+			<h3>user:</h3>
+				<ul>
+					<li>userId(pk)</li>
+					<li>userAtHandle</li>
+					<li>userPhoneNumber</li>
+				</ul>
+
+			<h3>photoPost:</h3>
+				<ul>
+					<li>photoPostId(pk)</li>
+					<li>photoPostUserId(fk)</li>
+					<li>photoPostContent</li>
+					<li>photoPostDate</li>
+					<li>photoPostLocation</li>
+				</ul>
+
+				<h3>like:</h3>
+					<ul>
+						<li>likeUserId(fk)</li>
+						<li>likePostId(fk)</li>
+					</ul>
+
+				<h3>Relations:</h3>
+					<ul>
+						<li>one user can post many photos</li>
+						<li>many photos can be liked by many users</li>
+					</ul>
 	</body>
 	<a href="index.php">Home</a>
 </html>
