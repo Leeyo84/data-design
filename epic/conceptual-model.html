@@ -7,24 +7,24 @@
 
 	<body>
 	<link rel="stylesheet" href="style.css">
-
 		<h1>Conceptual Model</h1>
-	<div>
+	<div class="menu">
 		<ul>
+			<li class="menuLinks"> <a href="index.php">Home</a> </li>
 			<li class="menuLinks"> <a href="persona.html">Persona</a> </li>
 			<li class="menuLinks"> <a href="user-story.html">User Story</a> </li>
 			<li class="menuLinks"> <a href="interaction-flow.html">Interaction Flow</a> </li>
 			<li class="menuLinks"> <a href="conceptual-model.html">Conceptual Model</a> </li>
 		</ul>
 	</div>
-			<h3>user:</h3>
+			<h3 class="conceptModelH3">user:</h3>
 				<ul>
 					<li>userId(pk)</li>
 					<li>userAtHandle</li>
 					<li>userPhoneNumber</li>
 				</ul>
 
-			<h3>photoPost:</h3>
+			<h3 class="conceptModelH3">photoPost:</h3>
 				<ul>
 					<li>photoPostId(pk)</li>
 					<li>photoPostUserId(fk)</li>
@@ -33,13 +33,13 @@
 					<li>photoPostLocation</li>
 				</ul>
 
-				<h3>like:</h3>
+				<h3 class="conceptModelH3">like:</h3>
 					<ul>
 						<li>likeUserId(fk)</li>
 						<li>likePostId(fk)</li>
 					</ul>
 
-				<h3>Relations:</h3>
+				<h3 class="conceptModelH3">Relations:</h3>
 					<ul>
 						<li>one user can post many photos</li>
 						<li>many photos can be liked by many users</li>

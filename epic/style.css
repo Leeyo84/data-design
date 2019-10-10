@@ -1,11 +1,11 @@
+
 body {
-	border: deeppink 3em;
+	background-size: 960px;
 	background-color: lightgray;
-	alignment: center;
 }
 
-.inner {
-	margin-top: 20px;
+.background {
+	background-size: 80%;
 }
 
 h1 {
@@ -16,6 +16,31 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-family: "Lucida Console", serif;
+	text-align: center;
+
+}
+
+h3 {
+	font-family: "Lucida Console", serif;
+	text-align: center;
+	color: darkgoldenrod;
+}
+
+.conceptModelH3 {
+	font-family: "Lucida Console", serif;
+	text-align: left;
+	color: darkgoldenrod;
+	margin-left: 25px;
+}
+
+.headingFourInterFlow {
+	font-family: "Lucida Console", serif;
+	color: darkgoldenrod;
+}
+
+
 a {
 	text-decoration: none;
 	color: deeppink;
@@ -25,14 +50,32 @@ a:hover {
 	color: aquamarine;
 }
 
+.menu {
+	text-align: center;
+}
+
 .menuLinks {
 	list-style-type: none;
 	font-family: "Lucida Console", serif;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 	display: inline-block;
-	margin-right: 25px;
-	zoom:1;
+	margin-right: 12px;
+	margin-left: 12px;
+}
 
+.interFlow {
+	list-style-type: none;
+	font-family: "Lucida Console", serif;
+}
+
+p {
+	text-align: center;
+	font-family: "Lucida Console", serif;
 
 }
 
+.personaList {
+	list-style-type: none;
+	font-family: "Lucida Console", serif;
+	text-align: center;
+}
