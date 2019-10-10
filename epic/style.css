@@ -55,26 +55,21 @@ h3 {
 }
 
 .conceptModelListDiv {
-	width: auto;
-	height: 200px;
-	margin: auto;
-	padding: 10px;
+	display: flex;
+	flex-direction: column;
 }
+@media (min-width: 1200px) {
+	.conceptModelListDiv {
+		display: flex;
+		flex-direction: row;
+}
+
 
 .conceptModelList {
 	width: auto;
-	height: 200px;
-	float: left;
+	height: auto;
 	margin-left: 5%;
 }
-
-.ERDImage {
-	margin-left: auto;
-	height: 200px;
-	float: right;
-	margin-right: 5%;
-}
-
 
 .headingFourInterFlow {
 	font-family: "Lucida Console", serif;
