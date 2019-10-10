@@ -17,33 +17,37 @@
 			<li class="menuLinks"> <a href="conceptual-model.html">Conceptual Model</a> </li>
 		</ul>
 	</div>
+
+	<div class="conceptModelList">
 			<h3 class="conceptModelH3">user:</h3>
 				<ul>
-					<li>userId(pk)</li>
-					<li>userAtHandle</li>
-					<li>userPhoneNumber</li>
+					<li class="conceptModelListItems">userId(pk)</li>
+					<li class="conceptModelListItems">userAtHandle</li>
+					<li class="conceptModelListItems">userPhoneNumber</li>
 				</ul>
 
 			<h3 class="conceptModelH3">photoPost:</h3>
 				<ul>
-					<li>photoPostId(pk)</li>
-					<li>photoPostUserId(fk)</li>
-					<li>photoPostContent</li>
-					<li>photoPostDate</li>
-					<li>photoPostLocation</li>
+					<li class="conceptModelListItems">photoPostId(pk)</li>
+					<li class="conceptModelListItems">photoPostUserId(fk)</li>
+					<li class="conceptModelListItems">photoPostContent</li>
+					<li class="conceptModelListItems">photoPostDate</li>
+					<li class="conceptModelListItems">photoPostLocation</li>
 				</ul>
 
 				<h3 class="conceptModelH3">like:</h3>
 					<ul>
-						<li>likeUserId(fk)</li>
-						<li>likePostId(fk)</li>
+						<li class="conceptModelListItems">likeUserId(fk)</li>
+						<li class="conceptModelListItems">likePostId(fk)</li>
 					</ul>
 
 				<h3 class="conceptModelH3">Relations:</h3>
 					<ul>
-						<li>one user can post many photos</li>
-						<li>many photos can be liked by many users</li>
+						<li class="conceptModelListItems">one user can post many photos</li>
+						<li class="conceptModelListItems">many photos can be liked by many users</li>
 					</ul>
+	</div>
+
 	</body>
 
 </html>

@@ -17,9 +17,18 @@ h1 {
 }
 
 h2 {
-	font-family: "Lucida Console", serif;
+	font-family: "Courier New", serif;
 	text-align: center;
+	color: darkgoldenrod;
+	text-decoration: underline darkgoldenrod;
+}
 
+.personaLiBorder {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	top: 25%;
 }
 
 h3 {
@@ -30,9 +39,18 @@ h3 {
 
 .conceptModelH3 {
 	font-family: "Lucida Console", serif;
-	text-align: left;
+	text-align: center;
 	color: darkgoldenrod;
 	margin-left: 25px;
+}
+.conceptModelList {
+	text-align: center;
+
+}
+
+.conceptModelListItems {
+	list-style-type: none;
+	font-family: "Courier New", serif;
 }
 
 .headingFourInterFlow {
@@ -70,12 +88,14 @@ a:hover {
 
 p {
 	text-align: center;
-	font-family: "Lucida Console", serif;
+	font-family: "Courier New", serif
 
 }
 
 .personaList {
 	list-style-type: none;
-	font-family: "Lucida Console", serif;
-	text-align: center;
+	font-family: "Courier New", serif;
+	text-align: left;
+	margin-left: 0;
 }
+
