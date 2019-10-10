@@ -39,13 +39,13 @@ h3 {
 
 .conceptModelH3 {
 	font-family: "Lucida Console", serif;
-	text-align: center;
+	text-align: left;
 	color: darkgoldenrod;
 	margin-left: 25px;
 }
-.conceptModelList {
-	text-align: center;
 
+.conceptModelList {
+	text-align: left;
 }
 
 .conceptModelListItems {
@@ -53,14 +53,37 @@ h3 {
 	font-family: "Courier New", serif;
 }
 
+.conceptModelListDiv {
+	width: 80%;
+	height: 200px;
+	margin: auto;
+	padding: 10px;
+}
+
+.conceptModelList {
+	width: auto;
+	height: 200px;
+	float: left;
+	margin-left: 5%;
+}
+
+.ERDImage {
+	border: darkgoldenrod solid 5px;
+	margin-left: auto;
+	height: 200px;
+	float: right;
+	margin-right: 5%;
+}
+
+
 .headingFourInterFlow {
 	font-family: "Lucida Console", serif;
 	color: darkgoldenrod;
 }
 
-.interFlow {
-	list-style-type: none;
-	font-family: "Lucida Console", serif;
+.interFlowList {
+	list-style-type: square;
+	font-family: "Courier New", serif;
 }
 
 .addPhotoAndLikeDiv {
@@ -71,17 +94,17 @@ h3 {
 }
 
 .interFlowAddPhoto {
-	width: 15%;
+	width: auto;
 	height: 200px;
 	float: left;
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 .interFlowLikePhoto {
-	margin-left: 15%;
+	margin-left: auto;
 	height: 200px;
 	float: right;
-	margin-right: 10%;
+	margin-right: 5%;
 }
 
 

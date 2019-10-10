@@ -18,36 +18,42 @@
 		</ul>
 	</div>
 
-	<div class="conceptModelList">
-			<h3 class="conceptModelH3">user:</h3>
-				<ul>
-					<li class="conceptModelListItems">userId(pk)</li>
-					<li class="conceptModelListItems">userAtHandle</li>
-					<li class="conceptModelListItems">userPhoneNumber</li>
-				</ul>
-
-			<h3 class="conceptModelH3">photoPost:</h3>
-				<ul>
-					<li class="conceptModelListItems">photoPostId(pk)</li>
-					<li class="conceptModelListItems">photoPostUserId(fk)</li>
-					<li class="conceptModelListItems">photoPostContent</li>
-					<li class="conceptModelListItems">photoPostDate</li>
-					<li class="conceptModelListItems">photoPostLocation</li>
-				</ul>
-
-				<h3 class="conceptModelH3">like:</h3>
+	<section class="conceptModelListDiv">
+		<div class="conceptModelList">
+				<h3 class="conceptModelH3">user:</h3>
 					<ul>
-						<li class="conceptModelListItems">likeUserId(fk)</li>
-						<li class="conceptModelListItems">likePostId(fk)</li>
+						<li class="conceptModelListItems">userId(pk)</li>
+						<li class="conceptModelListItems">userAtHandle</li>
+						<li class="conceptModelListItems">userPhoneNumber</li>
 					</ul>
 
-				<h3 class="conceptModelH3">Relations:</h3>
+				<h3 class="conceptModelH3">photoPost:</h3>
 					<ul>
-						<li class="conceptModelListItems">one user can post many photos</li>
-						<li class="conceptModelListItems">many photos can be liked by many users</li>
+						<li class="conceptModelListItems">photoPostId(pk)</li>
+						<li class="conceptModelListItems">photoPostUserId(fk)</li>
+						<li class="conceptModelListItems">photoPostContent</li>
+						<li class="conceptModelListItems">photoPostDate</li>
+						<li class="conceptModelListItems">photoPostLocation</li>
 					</ul>
+
+					<h3 class="conceptModelH3">like:</h3>
+						<ul>
+							<li class="conceptModelListItems">likeUserId(fk)</li>
+							<li class="conceptModelListItems">likePostId(fk)</li>
+						</ul>
+
+					<h3 class="conceptModelH3">Relations:</h3>
+						<ul>
+							<li class="conceptModelListItems">one user can post many photos</li>
+							<li class="conceptModelListItems">many photos can be liked by many users</li>
+						</ul>
+		</div>
+
+	<div class="ERDImage">
+		<img src="ERD-data-design.jpg" alt="ERD Photo">
 	</div>
 
+	</section>
 	</body>
 
 </html>
