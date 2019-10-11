@@ -1,12 +1,14 @@
-
-body {
-	background-size: 960px;
-	background-color: lightgray;
+.homeBackground {
+	background-image: url("yourNotLost.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
-.background {
-	background-size: 80%;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
 }
 
 h1 {
@@ -58,11 +60,12 @@ h3 {
 	display: flex;
 	flex-direction: column;
 }
+
 @media (min-width: 1200px) {
 	.conceptModelListDiv {
 		display: flex;
 		flex-direction: row;
-}
+}}
 
 
 .conceptModelList {
@@ -112,29 +115,37 @@ a:hover {
 	color: aquamarine;
 }
 
-.menu {
+
+
+.nav ul {
+	list-style-type: none;
 	text-align: center;
+	padding: 0;
+	margin-left: auto;
 }
 
-.menuLinks {
-	list-style-type: none;
-	font-family: "Lucida Console", serif;
-	margin-bottom: 20px;
+.nav li {
 	display: inline-block;
-	margin-right: 12px;
-	margin-left: 12px;
+	margin: 10px;
+	font-family: "Lucida Console", serif;
+	line-height: 40px;
+	height: 40px;
 }
+
+@media screen and (min-width: 100px) {
+}
+
+
 
 p {
 	text-align: center;
-	font-family: "Courier New", serif
-
+	font-family: "Courier New", serif;
 }
 
 .personaList {
 	list-style-type: none;
 	font-family: "Courier New", serif;
 	text-align: left;
-	margin-left: 0;
-}
+	margin-left:auto;
+}}
 

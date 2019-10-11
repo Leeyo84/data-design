@@ -5,16 +5,17 @@
 		<title>Data Design Project</title>
 	</head>
 
-	<body>
+	<body class="homeBackground">
 	<link rel="stylesheet" href="style.css">
 	<h1>Data Design Project</h1>
-	<div class="menu">
+
+	<div class="nav">
 		<ul>
-			<li class="menuLinks"> <a href="index.php">Home</a> </li>
-			<li class="menuLinks"> <a href="persona.html">Persona</a> </li>
-			<li class="menuLinks"> <a href="user-story.html">User Story</a> </li>
-			<li class="menuLinks"> <a href="interaction-flow.html">Interaction Flow</a> </li>
-			<li class="menuLinks"> <a href="conceptual-model.html">Conceptual Model</a> </li>
+			<li class="home"> <a href="index.php">Home</a> </li>
+			<li class="persona"> <a href="persona.html">Persona</a> </li>
+			<li class="userStory"> <a href="user-story.html">User Story</a> </li>
+			<li class="interactionFlow"> <a href="interaction-flow.html">Interaction Flow</a> </li>
+			<li class="conceptualModel"> <a href="conceptual-model.html">Conceptual Model</a> </li>
 		</ul>
 	</div>
 
