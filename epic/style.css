@@ -52,6 +52,7 @@ h3 {
 }
 
 .conceptModelListItems {
+	color: lightgray;
 	list-style-type: none;
 	font-family: "Courier New", serif;
 }
@@ -74,12 +75,18 @@ h3 {
 	margin-left: 5%;
 }
 
+.ERDImage {
+	margin-left: 80px;
+	border: darkgoldenrod 5px;
+}
+
 .headingFourInterFlow {
 	font-family: "Lucida Console", serif;
 	color: darkgoldenrod;
 }
 
 .interFlowList {
+	color: lightgray;
 	list-style-type: square;
 	font-family: "Courier New", serif;
 }
@@ -102,7 +109,7 @@ h3 {
 	margin-left: auto;
 	height: 200px;
 	float: right;
-	margin-right: 5%;
+	margin-right: auto;
 }
 
 
@@ -136,11 +143,13 @@ a:hover {
 }
 
 p {
+	color: lightgray;
 	text-align: center;
 	font-family: "Courier New", serif;
 }
 
 .personaList {
+	color: lightgray;
 	list-style-type: none;
 	font-family: "Courier New", serif;
 	text-align: left;
