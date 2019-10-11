@@ -135,8 +135,6 @@ a:hover {
 @media screen and (min-width: 100px) {
 }
 
-
-
 p {
 	text-align: center;
 	font-family: "Courier New", serif;
@@ -147,5 +145,5 @@ p {
 	font-family: "Courier New", serif;
 	text-align: left;
 	margin-left:auto;
-}}
+}
 
