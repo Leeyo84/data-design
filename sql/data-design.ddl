@@ -1,3 +1,7 @@
+drop table if exists photoPost;
+drop table if exists user;
+drop table if exists `like`;
+
 create table user(
 	userId binary(16) not null,
 	userAtHandle varchar(255),
@@ -12,13 +16,13 @@ create table user(
 
 create table photoPost(
 	photoPostId binary(16) not null,
-	photoPostUserId varchar(32) not null,
+	photoPostUserId binary(16) not null,
 	unique(photoPostId),
 	primary key(photoPostId),
 	foreign key(photoPostUserId) references user(userId)
 );
 
-create table "like"(
+create table `like`(
 	likeUserId binary(16) not null,
 	likePhotoPostId binary(16) not null,
 	foreign key(likeUserId) references user(userId),
